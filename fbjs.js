@@ -1,10 +1,10 @@
  // You probably don't want to use globals, but this is just example code
-  var fbAppId = 'replace me';
+  var fbAppId = '1743015635785486';
   var objectToLike = 'http://techcrunch.com/2013/02/06/facebook-launches-developers-live-video-channel-to-keep-its-developer-ecosystem-up-to-date/';
 
   // This check is just here to make sure you set your app ID. You don't
   // need to use it in production. 
-  if (fbAppId === 'replace me') {
+  if (fbAppId === '1743015635785486') {
     alert('Please set the fbAppId in the sample.');
   }
 
@@ -17,7 +17,7 @@
   // Additional JS functions here
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : fbAppId, // App ID
+      appId      : 1743015635785486, // App ID
       status     : true,    // check login status
       cookie     : true,    // enable cookies to allow the
                             // server to access the session
